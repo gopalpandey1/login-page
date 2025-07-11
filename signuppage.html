@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignUP</title>
+    <style>
+        @keyframes neonGlow {
+            0% {box-shadow: 0 0 50px #0ff;}
+            30%{box-shadow: 0 0 60px rgb(235, 235, 8);}
+            50%{box-shadow: 0 0 20px  rgb(24, 143, 62) , 0 0 30px rgb(20, 139, 139);}
+            80%{box-shadow: 0 0 40px #a0229e , 0 0 40px #0ff;}
+            100%{box-shadow:  0 0 50px rgb(230, 9, 39);}
+        }
+        .name{
+            background-color: rgb(250, 122, 194);
+        border: solid 5px;
+        border-radius: 19px;
+        padding-top: 1px;
+        padding-bottom: 20px;
+        padding-left: 1px;
+       margin-left: auto;
+       margin-right: auto;
+        margin-top: 100px;
+        box-shadow: 2px 2px 2px;
+        left: auto;
+        border: aliceblue;
+        animation: neonGlow 4s infinite alternate;
+        max-width: 350px;
+        }
+    .go{
+        color: #0ff;
+        padding-right: 120px;
+    }
+    .go1{
+        color: #0ff;
+        padding-right: 101px;
+    }
+    body{
+        background: #87a894;
+    }
+    
+    
+    input[type=submit]{background-color: #b63a3a; color: white;padding: 6px 20px;border: none;border-radius: 4px;cursor: pointer; margin-left: -11px; }
+    h1{color: rgb(14, 216, 226);}
+    
+    .round{
+        border: 1px solid #ccc;
+        border-radius: 20px;
+        padding: 10px;
+        
+
+    }
+    
+    </style>
+</head>
+<body>
+    
+</body>
+<div class="name">
+    <center> <h1>SignUP</h1>
+      <label class="go">Name :</label><br>
+      <input type="text" class="round" name="Name" required  ><br><br>
+      <label class="go">Gmail :</label><br>
+      <input type="email" class="round" name="Gmail" required><br><br>
+      <label class="go">User Id :</label><br>
+      <input type="text" class="round" name="User Id" required  ><br><br>
+      <label class="go1">Password :</label><br>
+      <input type="password" class="round" name="Password" required ><br><br>
+      <input type="submit" >
+      <p>Already have an account ?<a href="index.html">Login</a></p></center>
+  </div>
+  
+</html>
